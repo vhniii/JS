@@ -1,1 +1,1 @@
-# JS
+# Tehnilised võtted funktsionaalsuse lisamiseks
