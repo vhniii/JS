@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html>
+
+
+<head>
+    
+<title> Numbri arvamise mäng </title>
+    
+</head>
+
+    
+<body>
+    
+    <h1> Numbri arvamise mäng </h1>
+    <p> Arva ära number 1 ja 100 vahel.</p>
+    
+    
+    <div id="form">
+        
+        <label id="guessField-text" for="guessField">Sisestage arv:</label>
+        <input class="guessField" type="number" min="1" max="100">
+        <input class="guessSubmit" type="submit" value="Kontrolli">
+        
+    </div>
+    
+    <div>
+       
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHigh"></p>
+        
+    </div>
+    
+<input id="newGame" type="button" value="Alusta mängu uuesti!" visibility="hidden" onclick="location.reload()">
+    
+    
+    <script src="main.js"></script>
+    
+</body>
+    
+</html>
