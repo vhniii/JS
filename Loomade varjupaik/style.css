@@ -1,0 +1,213 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+a:any-link {
+    
+    color: white;
+    text-decoration: none;
+    
+}
+
+header {
+    
+    height: 100px;
+    background: #2ecc71;
+    
+}
+
+
+#logo {
+    
+    color: white;
+    padding: 30px 0px 30px 30px;
+    float: left;
+/*    font-family: 'Open Sans', sans-serif;*/
+
+}
+
+#main-menu {
+    
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    
+}
+
+
+#main-menu li {
+    
+    
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 20px;
+/*    font-family: 'Open Sans', sans-serif;*/
+    
+}
+
+
+/* Hero Banner */
+
+.hero-image {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.hero-img {
+    
+    width: 100%;
+    transition: 1s ease-in-out;
+    
+}
+
+.dont-show {
+    
+    display: none;
+    
+}
+
+
+#contact-section {
+    
+/*    background: rgba(111, 111, 111, 0.28);*/
+    background: rgba(111, 111, 111, 0.35);
+    color: white;
+    padding: 50px 50px;
+    text-align: center;
+    
+}
+
+#contact-section h1 {
+    
+    font-size: 32px;
+    text-transform: uppercase;
+    
+}
+#contact-section ul {
+    
+    margin-top: 40px;
+    
+}
+
+
+#contact-section ul li {
+    
+    padding: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+#map {
+    
+    background: #2ecc71;
+    
+}
+
+
+footer {
+    
+    height: 100px;
+    width: 100%;
+    background: #2ecc71;
+    
+}
+
+footer .left {
+    
+    float: left;
+    padding: 10px 0px 10px 30px;
+    
+}
+
+
+footer .left ul li {
+    
+    padding: 4px;
+    
+}
+
+
+footer .right {
+    
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 70px;
+    
+}
+
+.open-side {
+    
+    display: none;
+    
+}
+
+#side-menu {
+    
+    display: none;
+    
+}
+
+.btn-close {
+    
+    display: none;
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    
+    
+    .open-side {
+        
+        display: block;
+        position: fixed;
+        top: 12px;
+        right: 15px;
+        
+    }
+    
+    
+    #main-menu {
+        
+        display: none;
+        
+    }
+    
+    #side-menu {
+        
+        display: block;
+        
+    }
+    
+    #side-menu {
+        
+        width: 0;
+        
+    }
+    
+    
+  html {
+      
+     width: 100vw; 
+      
+  }
+
+    
+    
+}
